@@ -4,7 +4,7 @@
 * lien cours : https://openclassrooms.com/fr/courses/1304236-redigez-en-markdown
 
 ## memento
-0. paragraphe : laisser une ligne vide
+** 0. paragraphe ** : laisser une ligne vide
 
 1. formatage
     * italique : `*quelques mots*`
