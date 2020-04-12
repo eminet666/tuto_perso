@@ -5,9 +5,9 @@
 
 ## memento
 Formatage
-* Italique <em> : *quelques mots*
-* Gras  <strong> : **plus important**
-* Souligné : __également important__
+* Italique <em> : `*quelques mots*`
+* Gras  <strong> : `**plus important**`
+* Souligné : `__également important__`
 
 Code : Mon texte `code` fin de mon texte (apostrophe inversée ` = altGr + 7)
  (note : le caractère ` est une apostrophe inversée, par défaut "AltGr + 7" sur les claviers Coloration syntaxique : ```php Mon code PHP en couleurs sur plusieurs lignes ```
