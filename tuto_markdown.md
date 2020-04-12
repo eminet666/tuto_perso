@@ -5,8 +5,8 @@
 
 ## memento
 Formatage
-* Italique <em> : `*quelques mots*`
-* Gras  <strong> : `**plus important**`
+* Italique : `*quelques mots*`
+* Gras     : `**plus important**`
 * Souligné : `__également important__`
 
 Code : Mon texte `code` fin de mon texte (apostrophe inversée ` = altGr + 7)
