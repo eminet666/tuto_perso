@@ -12,18 +12,18 @@
     `mkdir newdir` | `git init`
 
 2. ajout de fichier :  
-    `git add memento.md` | `git add .` (. ajout de tous les fichiers du répertoire)
-    `git commit -m "ajout memento.md"` (-m commentaire)
+    `git add memento.md` | `git add .` (. ajout de tous les fichiers du répertoire)  
+    `git commit -m "ajout memento.md"` (-m commentaire)  
     `git commit -a -m "modif memento.md"` (-a met à jour fichier existant)
 
 3. lecture de l'historique :  
     `git log `
 
 4. positionnements :  
-    * se positionner sur un SHA : `git checkout SHADuCommit`
-    * revenir au master : `git checkout master`
-    * annulation du dernier commit : `git revert SHADuCommit`
-    * modifier message du dernier commit : `git commit --amend -m "nw msg"` (avant le push uniquement)
+    * se positionner sur un SHA : `git checkout SHADuCommit`  
+    * revenir au master : `git checkout master`  
+    * annulation du dernier commit : `git revert SHADuCommit`  
+    * modifier message du dernier commit : `git commit --amend -m "nw msg"` (avant le push uniquement)  
     * annulation de tous les changements : `git reset --hard‌` (avant le nouveau commit)
 
 ## memento GitHub
