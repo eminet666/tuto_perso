@@ -1,7 +1,7 @@
-# MARKDOWN
+# GIT
 
-* lien référence : https://fr.wikipedia.org/wiki/Markdown
-* lien cours : https://openclassrooms.com/fr/courses/1304236-redigez-en-markdown
+* lien référence : http://msysgit.github.io
+* lien cours : https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github
 
 ## memento
 ** 0. paragraphe ** : laisser une ligne vide
