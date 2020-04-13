@@ -49,9 +49,9 @@
 
 5. **fusion de branches :**  
     * de B sur A : `git checkout brancheA` & `git merge brancheB`  
-    * conflit : le message suivant apparait et résoudre le conflit
-        `Auto-merging new.md`
-        `CONFLICT (content): Merge conflict in new.md`
+    * conflit : le message suivant apparait et résoudre le conflit  
+        `Auto-merging new.md`  
+        `CONFLICT (content): Merge conflict in new.md`  
         `Automatic merge failed; fix conflicts and then commit the result.`  
         remarque : outil de gestion de conflit `git mergetool vimdiff` (vimdiff par exemple)
 
@@ -76,8 +76,8 @@
         - créer une nouvelle branche : `git checkout -b my-new-feature`  
         - commit des mofis : `git commit -m "added modifs"`
         - envoi de la nouvelle branche : `git push origin my-new-feature`
-    3. proposer nos modifications au projet :  Pull Request
-        sur notre fork GitHub, sur notre nouvelle branche, cliquez sur "Compare & pull request".
+    3. proposer nos modifications au projet :  Pull Request  
+       sur notre fork GitHub, sur notre nouvelle branche, cliquez sur "Compare & pull request".
 
 
 
