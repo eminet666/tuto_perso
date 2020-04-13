@@ -1,10 +1,11 @@
 # GIT
 
-* lien référence : http://msysgit.github.io
 * lien cours : https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github
+* lien installation : http://msysgit.github.io
 
 ## memento
-** 0. paragraphe ** : laisser une ligne vide
+** 0. configuratio ** : `git config --global user.name "Votre nom ou pseudo"
+                         git config --global user.email "votre@email.com"`
 
 1. formatage
     * italique : `*quelques mots*`
