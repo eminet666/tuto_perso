@@ -4,13 +4,11 @@
 * lien installation : http://msysgit.github.io
 
 ## memento
-** 0. configuratio ** : `git config --global user.name "Votre nom ou pseudo"
-                         git config --global user.email "votre@email.com"`
+0. configuration :
+    `git config --global user.name "Votre nom ou pseudo"`
+    `git config --global user.email "votre@email.com"`
 
-1. formatage
-    * italique : `*quelques mots*`
-    * gras     : `**plus important**`
-    * souligné : `__également important__`
+1. intialisation : `mkdir newdir` | `git init`
 
 2. code
     * code : `Mon texte `code` fin de mon texte` (apostrophe inversée = altGr+7)
