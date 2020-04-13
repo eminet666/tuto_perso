@@ -11,4 +11,10 @@
         [shell Bash Windows (alternative)](https://korben.info/installer-shell-bash-linux-windows-10.html)
         rem : l'invite de commande ou le powershell ne sont pas des terminaux (mais proches)
 
+
+
+
+## accès et installation (windows)
+    Test
+
 ## accès et installation (windows)
