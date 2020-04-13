@@ -3,7 +3,8 @@
 * lien cours : https://openclassrooms.com/fr/courses/6173491-apprenez-a-utiliser-la-ligne-de-commande-dans-un-terminal/6349461-decouvrez-le-terminal
 * lien installation (terminal windows) : http://msysgit.github.io
 
-## accès / installation
+
+## accès et installation (windows)
     * sous Linux : Cliquez sur `Applications > Accessoires > Terminal` | `Ctrl + Alt + T`
     * sous Mac, vous pouvez accéder à un terminal via : `Applications > Utilitaires > Terminal.app`
     * sous Windows (installation requise) :
