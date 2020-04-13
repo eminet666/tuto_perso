@@ -28,12 +28,9 @@
 
 ## memento GitHub
 
-5. tableaux
-    `| Titre 1       |     Titre 2     |        Titre 3 |
-    | :------------ | :-------------: | -------------: |
-    | Colonne       |     Colonne     |        Colonne |
-    | Alignée à     |   Alignée au    |      Alignée à |
-    | Gauche        |     Centre      |         Droite |`
+1. **récupérer un repository github :**
+    navigateur : utiliser l'option "clone URL" sur la page du repository
+    terminal : `git clone https://github.com/facebook/react.git`(exemple avec react.js)
 
 6. liens : `[texte du lien](url_du_lien "texte pour le titre, facultatif")`
     (pas d'espace entre le crochet fermant et la parenthèse ouvrante)
