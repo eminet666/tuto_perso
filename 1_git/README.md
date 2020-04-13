@@ -3,25 +3,30 @@
 * lien cours : https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github
 * lien installation : http://msysgit.github.io
 
-## memento
+## memento Git
 0. configuration :  
     `git config --global user.name "Votre nom ou pseudo"`  
     `git config --global user.email "votre@email.com"`
 
-1. intialisation : `mkdir newdir` | `git init`
+1. intialisation :  
+    `mkdir newdir` | `git init`
 
-2. code
-    * code : `Mon texte `code` fin de mon texte` (apostrophe inversée = altGr+7)
-    * coloration syntaxique : ` ```php Mon code PHP en couleurs sur plusieurs lignes ``` `
-    * paragaphe code : `    Première ligne de code    ` (laisser 4 espaces avant-après)
+2. ajout de fichier :  
+    `git add memento.md` | `git add .` (. ajout de tous les fichiers du répertoire)
+    `git commit -m "ajout memento.md"` (-m commentaire)
+    `git commit -a -m "modif memento.md"` (-a met à jour fichier existant)
 
-3. listes (sauter une ligne avant le début de la liste)
-    * liste non ordonnée (ul) : `* item1 `
-    * sous-élément : `    * item1 `avec au moins quatre espaces devant.
-    * liste ordonnée (ol) : `1. item1 `
-    * liste case à cocher : `[ ] Case non cochée`, `[x] Case cochée`
+3. lecture de l'historique :  
+    `git log `
 
-4. titres : `# titre` (nb dièses = niveau de titres de 1 à 6)
+4. positionnements :  
+    * se positionner sur un SHA : `git checkout SHADuCommit`
+    * revenir au master : `git checkout master`
+    * annulation du dernier commit : `git revert SHADuCommit`
+    * modifier message du dernier commit : `git commit --amend -m "nw msg"` (avant le push uniquement)
+    * annulation de tous les changements : `git reset --hard‌` (avant le nouveau commit)
+
+## memento GitHub
 
 5. tableaux
     `| Titre 1       |     Titre 2     |        Titre 3 |
