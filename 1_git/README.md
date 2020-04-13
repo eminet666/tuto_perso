@@ -20,7 +20,7 @@
     `git log `
 
 4. **positionnements :**  
-    * se positionner sur un SHA : **`git checkout SHADuCommit`**  
+    * se positionner sur un SHA : `git checkout SHADuCommit`  
     * revenir au master : `git checkout master`  
     * annulation du dernier commit : `git revert SHADuCommit`  
     * modifier message du dernier commit : `git commit --amend -m "nw msg"` (avant le push uniquement)  
@@ -28,15 +28,21 @@
 
 ## memento GitHub
 
-1. **récupérer un repository github :**  
-    navigateur : utiliser l'option "clone URL" sur la page du repository
-    terminal : `git clone https://github.com/facebook/react.git`(exemple avec react.js)
+1. **récupérer un repository github :**    
+    - navigateur : utiliser l'option "clone URL" sur la page du repository  
+    - terminal : `git clone https://github.com/facebook/react.git`(exemple avec react.js)
 
-6. liens : `[texte du lien](url_du_lien "texte pour le titre, facultatif")`
-    (pas d'espace entre le crochet fermant et la parenthèse ouvrante)
+2.  **créer un repository github :**  
+    navigateur : le créer sur https://github.com/user/ (user est l'identifiant github)  
+    puis cloner le repository (voir ci-dessus)
 
-7. images : `![Texte alternatif](url_de_l'image "texte pour le titre, facultatif")`
-    (pas d'espace entre le crochet fermant et la parenthèse ouvrante)
+3. **envoi/récupération de modifications sur github :**   
+    - envoi : `git push origin master` | `git log`  
+    - récupération : `git pull origin master`
+
+4. **création de branches :**   
+        envoi : `git push origin master` | `git log`  
+        récupération : `git pull origin master`
 
 ## PDF / en ligne
 + https://www.konectik.com/wp-content/uploads/2017/01/M%c3%a9mento-Markdown.pdf
