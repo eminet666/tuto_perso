@@ -4,8 +4,8 @@
 * lien installation : http://msysgit.github.io
 
 ## memento
-0. configuration :
-    `git config --global user.name "Votre nom ou pseudo"`
+0. configuration :  
+    `git config --global user.name "Votre nom ou pseudo"`  
     `git config --global user.email "votre@email.com"`
 
 1. intialisation : `mkdir newdir` | `git init`
