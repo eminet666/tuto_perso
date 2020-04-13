@@ -20,7 +20,7 @@
     `git log `
 
 4. **positionnements :**  
-    * se positionner sur un SHA : `git checkout SHADuCommit`  
+    * se positionner sur un SHA : **`git checkout SHADuCommit`**  
     * revenir au master : `git checkout master`  
     * annulation du dernier commit : `git revert SHADuCommit`  
     * modifier message du dernier commit : `git commit --amend -m "nw msg"` (avant le push uniquement)  
