@@ -4,22 +4,22 @@
 * lien installation : http://msysgit.github.io
 
 ## memento Git
-0. configuration :  
+0. **configuration :**  
     `git config --global user.name "Votre nom ou pseudo"`  
     `git config --global user.email "votre@email.com"`
 
-1. intialisation :  
+1. **intialisation :**  
     `mkdir newdir` | `git init`
 
-2. ajout de fichier :  
+2. **ajout de fichier :**  
     `git add memento.md` | `git add .` (. ajout de tous les fichiers du répertoire)  
     `git commit -m "ajout memento.md"` (-m commentaire)  
     `git commit -a -m "modif memento.md"` (-a met à jour fichier existant)
 
-3. lecture de l'historique :  
+3. **lecture de l'historique :**  
     `git log `
 
-4. positionnements :  
+4. **positionnements :**  
     * se positionner sur un SHA : `git checkout SHADuCommit`  
     * revenir au master : `git checkout master`  
     * annulation du dernier commit : `git revert SHADuCommit`  
@@ -28,7 +28,7 @@
 
 ## memento GitHub
 
-1. **récupérer un repository github :**
+1. **récupérer un repository github :**  
     navigateur : utiliser l'option "clone URL" sur la page du repository
     terminal : `git clone https://github.com/facebook/react.git`(exemple avec react.js)
 
